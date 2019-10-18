@@ -1,1 +1,601 @@
+1. C:\Users\Eko>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2CDD-B09C
 
+ Directory of C:\Users\Eko
+
+10/16/2019  01:38 PM    <DIR>          .
+10/16/2019  01:38 PM    <DIR>          ..
+06/18/2019  07:20 PM    <DIR>          .AndroidStudio3.4
+09/28/2019  11:45 AM             4,039 .bash_history
+06/17/2019  11:59 AM    <DIR>          .config
+06/21/2019  12:54 PM                16 .emulator_console_auth_token
+05/22/2019  08:56 PM                36 .gitconfig
+06/18/2019  06:49 PM    <DIR>          .gradle
+05/25/2019  01:00 PM    <DIR>          .idlerc
+10/04/2019  05:25 PM    <DIR>          .nbi
+06/17/2019  11:59 AM                 3 .node_repl_history
+05/17/2019  08:46 AM    <DIR>          .ssh
+10/11/2019  11:15 PM    <DIR>          .VirtualBox
+05/16/2019  11:00 PM    <DIR>          .vscode
+06/28/2019  08:59 PM    <DIR>          .vue-templates
+10/11/2019  11:23 AM    <DIR>          3D Objects
+06/19/2019  04:20 PM    <DIR>          AndroidStudioProjects
+10/11/2019  11:23 AM    <DIR>          Contacts
+10/01/2019  02:18 PM    <DIR>          Creative Cloud Files
+10/14/2019  01:03 PM    <DIR>          Desktop
+10/12/2019  09:13 AM    <DIR>          Documents
+10/11/2019  11:23 AM    <DIR>          Downloads
+10/11/2019  11:23 AM    <DIR>          Favorites
+10/11/2019  11:23 AM    <DIR>          Links
+10/11/2019  11:23 AM    <DIR>          Music
+10/01/2019  09:10 PM    <DIR>          OneDrive
+10/11/2019  11:23 AM    <DIR>          Pictures
+05/29/2019  06:16 AM    <DIR>          Postman
+10/11/2019  11:23 AM    <DIR>          Saved Games
+10/11/2019  11:23 AM    <DIR>          Searches
+10/18/2019  04:11 PM    <DIR>          Videos
+10/11/2019  10:04 PM    <DIR>          VirtualBox VMs
+07/23/2019  01:06 PM    <DIR>          visualparadigm
+07/16/2019  02:35 PM    <DIR>          vpworkspace
+               4 File(s)          4,094 bytes
+              30 Dir(s)  139,679,027,200 bytes free
+
+2. C:\Users\Eko>mkdir testFolder
+
+3. C:\Users\Eko>cd testFolder
+
+    C:\Users\Eko\testFolder>
+
+4. C:\Users\Eko\> ipconfig
+Windows IP Configuration
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter VirtualBox Host-Only Network:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::686e:5c02:83ed:1ce5%22
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+Wireless LAN adapter Local Area Connection* 11:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 14:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::9887:e515:58:2feb%7
+   IPv4 Address. . . . . . . . . . . : 192.168.1.16
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::1%7
+                                       192.168.1.1
+
+5. C:\Users\Eko>ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-V0NPA3V
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Mixed
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek PCIe GBE Family Controller
+   Physical Address. . . . . . . . . : 70-8B-CD-90-B3-5D
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter VirtualBox Host-Only Network:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   Physical Address. . . . . . . . . : 0A-00-27-00-00-16
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::686e:5c02:83ed:1ce5%22(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 973733927
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-24-6F-85-00-70-8B-CD-90-B3-5D
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Local Area Connection* 11:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 16-C6-3B-C9-64-3B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 14:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Hosted Network Virtual Adapter
+   Physical Address. . . . . . . . . : 46-C6-3B-C9-64-3B
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Qualcomm Atheros AR956x Wireless Network Adapter
+   Physical Address. . . . . . . . . : 74-C6-3B-C9-64-3B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi 2:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : TP-Link Wireless USB Adapter
+   Physical Address. . . . . . . . . : 7C-8B-CA-18-17-DC
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::9887:e515:58:2feb%7(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.1.16(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Friday, October 18, 2019 10:44:31 AM
+   Lease Expires . . . . . . . . . . : Saturday, October 19, 2019 3:22:34 PM
+   Default Gateway . . . . . . . . . : fe80::1%7
+                                       192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 58493898
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-24-6F-85-00-70-8B-CD-90-B3-5D
+   DNS Servers . . . . . . . . . . . : fe80::1%7
+                                       118.98.44.100
+                                       118.98.44.10
+                                       fe80::1%7
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+6. C:\Users\Eko>ipconfig /flushdns
+
+Windows IP Configuration
+
+Successfully flushed the DNS Resolver Cache.
+
+7. C:\Users\Eko>ping google.com
+
+Pinging google.com [216.239.38.120] with 32 bytes of data:
+Reply from 216.239.38.120: bytes=32 time=33ms TTL=57
+Reply from 216.239.38.120: bytes=32 time=22ms TTL=57
+Reply from 216.239.38.120: bytes=32 time=22ms TTL=57
+Reply from 216.239.38.120: bytes=32 time=25ms TTL=57
+
+Ping statistics for 216.239.38.120:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 22ms, Maximum = 33ms, Average = 25ms
+
+8. C:\Users\Eko>netstat -an
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:27009          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49670          0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:9990         0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:62789        127.0.0.1:5037         SYN_SENT
+  TCP    127.0.0.1:62790        127.0.0.1:5037         SYN_SENT
+  TCP    127.0.0.1:62791        127.0.0.1:7467         SYN_SENT
+  TCP    127.0.0.1:62792        127.0.0.1:5037         SYN_SENT
+  TCP    127.0.0.1:62793        127.0.0.1:5037         SYN_SENT
+  TCP    127.0.0.1:64387        0.0.0.0:0              LISTENING
+  TCP    192.168.1.16:139       0.0.0.0:0              LISTENING
+  TCP    192.168.1.16:58459     74.125.68.188:5228     ESTABLISHED
+  TCP    192.168.1.16:58495     52.139.250.253:443     ESTABLISHED
+  TCP    192.168.1.16:58613     151.101.10.2:443       ESTABLISHED
+  TCP    192.168.1.16:60331     23.53.160.32:443       CLOSE_WAIT
+  TCP    192.168.1.16:60845     35.241.39.74:443       ESTABLISHED
+  TCP    192.168.1.16:61243     54.89.38.37:443        ESTABLISHED
+  TCP    192.168.1.16:61275     151.101.10.208:443     ESTABLISHED
+  TCP    192.168.1.16:61280     185.199.110.154:443    ESTABLISHED
+  TCP    192.168.1.16:61298     185.199.110.154:443    ESTABLISHED
+  TCP    192.168.1.16:61453     140.82.113.25:443      ESTABLISHED
+  TCP    192.168.1.16:61682     104.244.42.72:443      ESTABLISHED
+  TCP    192.168.1.16:61690     104.16.129.5:443       ESTABLISHED
+  TCP    192.168.1.16:61696     104.18.98.194:443      ESTABLISHED
+  TCP    192.168.1.16:61950     104.27.178.84:443      ESTABLISHED
+  TCP    192.168.1.16:61957     104.19.198.151:443     ESTABLISHED
+  TCP    192.168.1.16:61968     104.18.226.52:443      ESTABLISHED
+  TCP    192.168.1.16:61983     210.176.156.25:443     ESTABLISHED
+  TCP    192.168.1.16:61988     104.16.173.188:443     ESTABLISHED
+  TCP    192.168.1.16:61991     210.176.156.55:443     ESTABLISHED
+  TCP    192.168.1.16:62000     103.231.98.196:443     ESTABLISHED
+  TCP    192.168.1.16:62024     151.101.52.134:443     ESTABLISHED
+  TCP    192.168.1.16:62025     151.101.52.134:443     ESTABLISHED
+  TCP    192.168.1.16:62039     151.101.128.134:443    ESTABLISHED
+  TCP    192.168.1.16:62046     104.16.79.166:443      ESTABLISHED
+  TCP    192.168.1.16:62080     104.16.79.166:443      ESTABLISHED
+  TCP    192.168.1.16:62086     151.101.42.49:443      ESTABLISHED
+  TCP    192.168.1.16:62106     151.101.52.134:443     ESTABLISHED
+  TCP    192.168.1.16:62230     52.157.234.37:443      TIME_WAIT
+  TCP    192.168.1.16:62437     23.221.79.159:80       TIME_WAIT
+  TCP    192.168.1.16:62438     23.221.79.159:80       TIME_WAIT
+  TCP    192.168.1.16:62477     52.157.234.37:443      ESTABLISHED
+  TCP    192.168.1.16:62534     172.217.27.46:80       ESTABLISHED
+  TCP    192.168.1.16:62629     188.166.251.157:443    ESTABLISHED
+  TCP    192.168.1.16:62631     52.187.52.94:443       ESTABLISHED
+  TCP    192.168.1.16:62643     52.79.146.42:443       CLOSE_WAIT
+  TCP    192.168.1.16:62644     52.79.146.42:443       CLOSE_WAIT
+  TCP    192.168.1.16:62646     151.101.128.134:443    ESTABLISHED
+  TCP    192.168.1.16:62667     104.93.96.31:443       ESTABLISHED
+  TCP    192.168.1.16:62668     157.240.25.35:443      ESTABLISHED
+  TCP    192.168.56.1:139       0.0.0.0:0              LISTENING
+  TCP    [::]:135               [::]:0                 LISTENING
+  TCP    [::]:445               [::]:0                 LISTENING
+  TCP    [::]:27009             [::]:0                 LISTENING
+  TCP    [::]:49664             [::]:0                 LISTENING
+  TCP    [::]:49665             [::]:0                 LISTENING
+  TCP    [::]:49666             [::]:0                 LISTENING
+  TCP    [::]:49667             [::]:0                 LISTENING
+  TCP    [::]:49668             [::]:0                 LISTENING
+  TCP    [::]:49670             [::]:0                 LISTENING
+  UDP    0.0.0.0:500            *:*
+  UDP    0.0.0.0:4500           *:*
+  UDP    0.0.0.0:5050           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5355           *:*
+  UDP    0.0.0.0:50689          *:*
+  UDP    0.0.0.0:53374          *:*
+  UDP    0.0.0.0:54515          *:*
+  UDP    0.0.0.0:54517          *:*
+  UDP    0.0.0.0:57430          *:*
+  UDP    0.0.0.0:58974          *:*
+  UDP    0.0.0.0:61286          *:*
+  UDP    0.0.0.0:61725          *:*
+  UDP    0.0.0.0:64970          *:*
+  UDP    127.0.0.1:1900         *:*
+  UDP    127.0.0.1:48400        *:*
+  UDP    127.0.0.1:49664        *:*
+  UDP    127.0.0.1:53029        *:*
+  UDP    192.168.1.16:137       *:*
+  UDP    192.168.1.16:138       *:*
+  UDP    192.168.1.16:1900      *:*
+  UDP    192.168.1.16:53028     *:*
+  UDP    192.168.56.1:137       *:*
+  UDP    192.168.56.1:138       *:*
+  UDP    192.168.56.1:1900      *:*
+  UDP    192.168.56.1:53027     *:*
+  UDP    [::]:500               *:*
+  UDP    [::]:4500              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5355              *:*
+  UDP    [::1]:1900             *:*
+  UDP    [::1]:53026            *:*
+  UDP    [fe80::686e:5c02:83ed:1ce5%22]:1900  *:*
+  UDP    [fe80::686e:5c02:83ed:1ce5%22]:53024  *:*
+  UDP    [fe80::9887:e515:58:2feb%7]:1900  *:*
+  UDP    [fe80::9887:e515:58:2feb%7]:53025  *:*
+
+9. C:\Users\Eko>tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0        280 K
+Registry                        96 Services                   0     68,384 K
+smss.exe                       408 Services                   0        492 K
+csrss.exe                      588 Services                   0      3,064 K
+wininit.exe                    696 Services                   0      3,108 K
+services.exe                   760 Services                   0      6,960 K
+lsass.exe                      780 Services                   0     14,744 K
+svchost.exe                    904 Services                   0      1,096 K
+svchost.exe                    924 Services                   0     20,936 K
+WUDFHost.exe                   948 Services                   0      5,232 K
+fontdrvhost.exe                968 Services                   0        700 K
+svchost.exe                    536 Services                   0     11,428 K
+svchost.exe                   1040 Services                   0      5,060 K
+svchost.exe                   1264 Services                   0      6,052 K
+svchost.exe                   1348 Services                   0      4,484 K
+svchost.exe                   1380 Services                   0      3,904 K
+svchost.exe                   1416 Services                   0      2,296 K
+svchost.exe                   1556 Services                   0      9,148 K
+svchost.exe                   1572 Services                   0      7,452 K
+svchost.exe                   1580 Services                   0     13,836 K
+svchost.exe                   1688 Services                   0      2,048 K
+svchost.exe                   1768 Services                   0      7,360 K
+NVDisplay.Container.exe       1812 Services                   0      5,880 K
+svchost.exe                   1892 Services                   0     11,360 K
+svchost.exe                   1936 Services                   0      1,544 K
+svchost.exe                   1944 Services                   0      6,472 K
+svchost.exe                   1952 Services                   0      3,988 K
+svchost.exe                   2036 Services                   0      6,196 K
+svchost.exe                   1528 Services                   0      5,280 K
+Memory Compression            1888 Services                   0    117,136 K
+igfxCUIService.exe            2152 Services                   0      3,304 K
+svchost.exe                   2204 Services                   0      3,728 K
+svchost.exe                   2212 Services                   0      6,584 K
+svchost.exe                   2284 Services                   0     14,372 K
+svchost.exe                   2336 Services                   0      2,800 K
+svchost.exe                   2432 Services                   0      4,120 K
+svchost.exe                   2500 Services                   0      3,604 K
+svchost.exe                   2524 Services                   0      9,192 K
+svchost.exe                   2556 Services                   0      3,492 K
+svchost.exe                   2640 Services                   0      7,780 K
+svchost.exe                   2700 Services                   0      4,772 K
+svchost.exe                   2768 Services                   0      5,140 K
+svchost.exe                   2776 Services                   0      2,704 K
+svchost.exe                   2864 Services                   0     11,496 K
+svchost.exe                   2904 Services                   0     11,044 K
+svchost.exe                   3044 Services                   0      5,804 K
+svchost.exe                   3132 Services                   0      3,520 K
+svchost.exe                   3244 Services                   0     15,784 K
+svchost.exe                   3304 Services                   0     12,808 K
+svchost.exe                   3332 Services                   0      9,272 K
+svchost.exe                   3328 Services                   0      7,576 K
+spoolsv.exe                   3448 Services                   0      4,800 K
+svchost.exe                   3640 Services                   0      2,496 K
+svchost.exe                   3776 Services                   0     10,296 K
+svchost.exe                   3784 Services                   0      2,356 K
+AdminService.exe              3804 Services                   0      2,860 K
+svchost.exe                   3812 Services                   0     24,548 K
+IntelCpHDCPSvc.exe            3832 Services                   0      1,972 K
+svchost.exe                   3848 Services                   0     30,816 K
+AGSService.exe                3880 Services                   0      9,984 K
+esif_uf.exe                   3912 Services                   0      2,756 K
+svchost.exe                   3920 Services                   0      3,088 K
+AGMService.exe                3964 Services                   0      6,696 K
+GfExperienceService.exe       4000 Services                   0      3,116 K
+FNPLicensingService.exe       4032 Services                   0      3,312 K
+PublicWiFiService.exe         4080 Services                   0      3,096 K
+svchost.exe                   4092 Services                   0      3,044 K
+svchost.exe                   2484 Services                   0      1,596 K
+svchost.exe                   2812 Services                   0      1,076 K
+svchost.exe                   3556 Services                   0     15,104 K
+NvNetworkService.exe          3480 Services                   0      3,500 K
+svchost.exe                   4192 Services                   0      3,676 K
+MsMpEng.exe                   4240 Services                   0    204,152 K
+svchost.exe                   4388 Services                   0        940 K
+dasHost.exe                   4532 Services                   0        964 K
+IntelCpHeciSvc.exe            4548 Services                   0      3,180 K
+PresentationFontCache.exe     4576 Services                   0      2,744 K
+svchost.exe                   4932 Services                   0      5,548 K
+svchost.exe                   4952 Services                   0      3,468 K
+svchost.exe                   5060 Services                   0      3,292 K
+svchost.exe                   5208 Services                   0     16,856 K
+svchost.exe                   5736 Services                   0      7,368 K
+unsecapp.exe                  5828 Services                   0      2,196 K
+svchost.exe                   3896 Services                   0      7,012 K
+svchost.exe                   6540 Services                   0     12,804 K
+svchost.exe                   6940 Services                   0      4,132 K
+NisSrv.exe                    7632 Services                   0      4,780 K
+SearchIndexer.exe             8524 Services                   0     65,208 K
+GoogleCrashHandler.exe        8712 Services                   0      1,148 K
+GoogleCrashHandler64.exe      8720 Services                   0        956 K
+SecurityHealthService.exe     9512 Services                   0      7,816 K
+svchost.exe                   9168 Services                   0      1,812 K
+lmgrd.exe                     3172 Services                   0      1,348 K
+conhost.exe                   9068 Services                   0      1,648 K
+lmgrd.exe                     6456 Services                   0      1,756 K
+SgrmBroker.exe                1508 Services                   0      3,848 K
+svchost.exe                   1900 Services                   0     11,704 K
+svchost.exe                   5400 Services                   0      4,980 K
+svchost.exe                   3660 Services                   0     11,560 K
+svchost.exe                   5668 Services                   0      5,408 K
+svchost.exe                   2788 Services                   0     13,664 K
+svchost.exe                   8960 Services                   0      4,216 K
+svchost.exe                   2540 Services                   0      3,224 K
+svchost.exe                   4856 Services                   0      7,844 K
+csrss.exe                     6048 Console                    3      5,632 K
+winlogon.exe                   864 Console                    3      9,560 K
+fontdrvhost.exe               5584 Console                    3      6,744 K
+dwm.exe                       5424 Console                    3     75,144 K
+NVDisplay.Container.exe      10044 Console                    3     23,404 K
+sihost.exe                    6916 Console                    3     27,044 K
+svchost.exe                   2576 Console                    3     27,016 K
+svchost.exe                   6980 Console                    3     34,968 K
+taskhostw.exe                 5816 Console                    3     17,216 K
+igfxEM.exe                    2116 Console                    3     11,592 K
+explorer.exe                  7600 Console                    3    170,844 K
+esif_assist_64.exe            4968 Console                    3      3,932 K
+svchost.exe                   6928 Services                   0      7,332 K
+svchost.exe                   9844 Console                    3     21,628 K
+ctfmon.exe                    9048 Console                    3     22,380 K
+StartMenuExperienceHost.e     7364 Console                    3     76,772 K
+RuntimeBroker.exe             9496 Console                    3     19,980 K
+SettingSyncHost.exe          10512 Console                    3      5,824 K
+SearchUI.exe                  2016 Console                    3    206,076 K
+RuntimeBroker.exe            11028 Console                    3     48,656 K
+LockApp.exe                   8824 Console                    3     38,644 K
+RuntimeBroker.exe             8516 Console                    3     24,580 K
+SecurityHealthSystray.exe     9392 Console                    3      8,192 K
+NvBackend.exe                 4624 Console                    3     21,916 K
+ApplicationFrameHost.exe     11216 Console                    3     35,808 K
+WinStore.App.exe              5672 Console                    3        136 K
+RuntimeBroker.exe             9032 Console                    3      8,348 K
+SystemSettings.exe            8924 Console                    3        208 K
+Video.UI.exe                  8172 Console                    3        480 K
+MicrosoftEdge.exe             2488 Console                    3      9,164 K
+browser_broker.exe            2604 Console                    3      7,732 K
+dllhost.exe                   1960 Console                    3     13,320 K
+RuntimeBroker.exe             2148 Console                    3      7,044 K
+MicrosoftEdgeCP.exe           4700 Console                    3     21,228 K
+MicrosoftEdgeSH.exe           5484 Console                    3     11,068 K
+svchost.exe                   8496 Console                    3     18,356 K
+chrome.exe                    3624 Console                    3    242,512 K
+chrome.exe                    3020 Console                    3      6,732 K
+chrome.exe                    9376 Console                    3      8,616 K
+chrome.exe                    8388 Console                    3    300,804 K
+chrome.exe                    6684 Console                    3     54,188 K
+chrome.exe                     220 Console                    3     83,952 K
+chrome.exe                    4756 Console                    3     52,076 K
+ShellExperienceHost.exe       2848 Console                    3     78,224 K
+RuntimeBroker.exe             4648 Console                    3     27,816 K
+chrome.exe                    8952 Console                    3     95,572 K
+chrome.exe                    4356 Console                    3     44,664 K
+chrome.exe                   11184 Console                    3     68,776 K
+svchost.exe                   5608 Services                   0      5,920 K
+chrome.exe                    7560 Console                    3     16,008 K
+Microsoft.Photos.exe         10984 Console                    3     39,148 K
+RuntimeBroker.exe             9500 Console                    3     31,632 K
+RuntimeBroker.exe             2724 Console                    3      8,168 K
+rundll32.exe                  2008 Console                    3      7,904 K
+RuntimeBroker.exe             4292 Console                    3     18,992 K
+WindowsInternal.Composabl     2184 Console                    3     39,284 K
+Code.exe                     11236 Console                    3     88,040 K
+Code.exe                      8848 Console                    3     80,892 K
+Code.exe                      3296 Console                    3     12,620 K
+Code.exe                      1368 Console                    3     66,112 K
+Code.exe                      1680 Console                    3    143,692 K
+CodeHelper.exe                5728 Console                    3     13,148 K
+conhost.exe                   7792 Console                    3      5,476 K
+Code.exe                      6604 Console                    3     52,952 K
+YourPhone.exe                12504 Console                    3      6,148 K
+RuntimeBroker.exe               68 Console                    3     16,064 K
+wlanext.exe                  10676 Services                   0      6,496 K
+conhost.exe                  13172 Services                   0      4,844 K
+CompPkgSrv.exe               10500 Console                    3      7,656 K
+SnippingTool.exe             12908 Console                    3     18,624 K
+taskhostw.exe                12660 Console                    3     14,460 K
+svchost.exe                  10040 Services                   0      4,920 K
+chrome.exe                   13888 Console                    3     64,644 K
+chrome.exe                    6568 Console                    3    105,196 K
+chrome.exe                   10212 Console                    3    117,864 K
+chrome.exe                   10864 Console                    3     85,004 K
+chrome.exe                   12576 Console                    3     68,164 K
+chrome.exe                   15316 Console                    3     84,400 K
+chrome.exe                    8212 Console                    3     68,316 K
+svchost.exe                   6508 Services                   0      5,712 K
+audiodg.exe                  12948 Services                   0     14,632 K
+chrome.exe                   14468 Console                    3     22,364 K
+svchost.exe                  13584 Services                   0     16,360 K
+smartscreen.exe              10316 Console                    3     22,660 K
+WmiPrvSE.exe                 14432 Services                   0      8,572 K
+cmd.exe                       7856 Console                    3      4,008 K
+conhost.exe                  13660 Console                    3     20,776 K
+svchost.exe                   1780 Services                   0      7,656 K
+SearchProtocolHost.exe       14212 Services                   0     11,376 K
+SearchFilterHost.exe          6200 Services                   0      6,160 K
+tasklist.exe                 11928 Console                    3      8,292 K
+WmiPrvSE.exe                  4256 Services                   0      8,616 K
+
+
+1o. C:\Users>cmd /e:off
+Microsoft Windows [Version 10.0.18362.418]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+11. C:\Users\Eko>date /t
+Fri 10/18/2019
+
+12. C:\Users\Eko>echo "Hello World"
+"Hello World"
+
+13. C:\Users\Eko>@echo off
+if not exist *.txt (
+More? echo This directory contains no text files.
+More? ) else (
+More?    echo This directory contains the following text files:
+More?    echo.
+More?    dir /b *.txt
+More?    )
+This directory contains no text files.
+
+
+14. C:\Users\Eko>assoc /?
+Displays or modifies file extension associations
+
+ASSOC [.ext[=[fileType]]]
+
+  .ext      Specifies the file extension to associate the file type with
+  fileType  Specifies the file type to associate with the file extension
+
+Type ASSOC without parameters to display the current file associations.
+If ASSOC is invoked with just a file extension, it displays the current
+file association for that file extension.  Specify nothing for the file
+type and the command will delete the association for the file extension.
+
+15. C:\Users\Eko>assoc .doc
+.doc=Word.Document.8
+
+16. C:\Users\Eko>assoc .docx
+.docx=Word.Document.12
+
+17. C:\Users\Eko>cipher /w:c
+To remove as much data as possible, please close all other applications while
+running CIPHER /W.
+Writing 0x00
+....................................................................................................
+Writing 0xFF
+...................................................................................................
+Writing Random Numbers
+....................................................................................................
+
+
+18. C:\Users\Eko>fc /l "E:\A.txt" "E:\B.txt"
+Comparing files E:\A.txt and E:\B.TXT
+***** E:\A.txt
+ini text A
+***** E:\B.TXT
+ini text B
+*****
+
+19. C:\Users\Eko>pathping www.google.com
+
+Tracing route to www.google.com [216.239.38.120]
+over a maximum of 30 hops:
+  0  DESKTOP-V0NPA3V [192.168.1.16]
+  1     *        *        *
+Computing statistics for 0 seconds...
+            Source to Here   This Node/Link
+Hop  RTT    Lost/Sent = Pct  Lost/Sent = Pct  Address
+  0                                           DESKTOP-V0NPA3V [192.168.1.16]
+
+Trace complete.
+
+20. C:\Users\Eko>tracert www.google.com
+
+Tracing route to www.google.com [216.239.38.120]
+over a maximum of 30 hops:
+
+  1     *        *        *     Request timed out.
+  2     6 ms     8 ms     5 ms  180.242.80.1
+  3     9 ms     7 ms     6 ms  229.subnet125-160-15.infra.telkom.net.id [125.160.15.229]
+  4    20 ms    16 ms    16 ms  174.190.240.180.in-addr.arpa [180.240.190.174]
+  5     *        *        *     Request timed out.
+  6    14 ms    64 ms    23 ms  118.204.240.180.in-addr.arpa [180.240.204.118]
+  7    17 ms    18 ms    16 ms  146.217.14.72.in-addr.arpa [72.14.217.146]
+  8     *        *        *     Request timed out.
+  9    26 ms    25 ms    67 ms  any-in-2678.1e100.net [216.239.38.120]
+
+Trace complete.
