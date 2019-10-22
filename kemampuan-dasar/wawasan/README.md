@@ -1,0 +1,1 @@
+dari point-point yang dikerjakan saya mengetahui perintah dasar git, mulai dari clone, init, push, full, dan membuat branc baru
