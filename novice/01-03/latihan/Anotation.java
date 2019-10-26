@@ -10,9 +10,13 @@ import java.lang.annotation.RetentionPolicy;
 * <b>Note:</b> Giving proper comments in your program makes it more
 * user friendly and it is assumed as a high quality code.
 *
-* @author  Zara Ali
+* @author  Eko Muliyo
 * @version 1.0
-* @since   2014-03-31
+* @since   2019-10-10
+*/
+
+/**
+  * method ini hanya interface anotasi
 */
 
 @Retention(RetentionPolicy.RUNTIME)
@@ -21,12 +25,5 @@ public @interface Anotation{
     int count() default 19;
     String[] tags() default {"Hai", "Hai Juga"};
     
-     /**
-   * This method is used to add two integers. This is
-   * a the simplest form of a class method, just to
-   * show the usage of various javadoc Tags.
-   * @param numA This is the first paramter to addNum method
-   * @param numB  This is the second parameter to addNum method
-   * @return int This returns sum of numA and numB.
-   */
+
 }
