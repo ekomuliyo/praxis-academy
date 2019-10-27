@@ -72,7 +72,4 @@ class CompBEmp extends Emp{
         super(nm, sal);
     }
 
-    public void testMethod (){
-        System.out.println("Hai");
-    }
 }
