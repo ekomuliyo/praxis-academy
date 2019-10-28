@@ -1,3 +1,7 @@
+/**
+ * @author Eko Muliyo 
+ */
+
 public class PesanPizza{
     public static void main(String[] args) {
         Pembeli pembeli = new Pembeli("Andi", 19);
