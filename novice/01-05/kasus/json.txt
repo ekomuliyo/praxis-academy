@@ -1,0 +1,22 @@
+[
+    {
+        nama : "Hashim",
+        alamat : "3717 Egestas Road",
+        no_hp : "07624 252012"
+    },
+    {
+        nama : "Yoshio",
+		alamat : "960-4166 Dolor Rd.",
+		no_hp : "0324 634 3113"
+    },
+    {
+        nama : "Burton",
+		alamat : "9903 Eget, Road",
+		no_hp : "0800 036 5983"
+    },
+    {
+        nama : "Reed",
+		alamat : "P.O. Box 719, 1662 Nullam Av.",
+		no_hp : "(01052) 532023"
+    }
+]
