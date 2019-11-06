@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: ekomuliyo.micronout
+---
+testFramework: junit
+sourceLanguage: java
