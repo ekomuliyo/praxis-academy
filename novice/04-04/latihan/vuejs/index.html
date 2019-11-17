@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue</title>
+</head>
+<body>
+    <!-- Declarative rendering -->
+    <!-- <div id="app">
+        <h1>Product Name</h1>
+        <h2>{{ product }}</h2>
+        <p>{{ description }}</p>
+        <span v-bind:title="message">
+            Hover your mouse over me for a  few second to see my dynamically
+            bound title
+        </span>
+    </div> -->
+
+    <!-- Directive v-text and v-html -->
+    <!-- <div id="app1" v-html="message">
+    </div> -->
+
+    <!-- Conditional and Loop -->
+    <!-- <div id="app2">
+        <span v-if="seen">Now you see me</span>
+    </div> -->
+    <!-- <div id="app3">
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ol>
+    </div> -->
+
+    <!-- Handling User Input -->
+    <!-- <div id="app4">
+        <p>{{ message }}</p>
+        <button v-on:click="reverseMessage">Reverse Message</button>
+        <br/><br/>
+        <input v-model="message">
+    </div> -->
+
+    <!-- Composing with Components -->
+    <!-- <div id="app5">
+        <ol>
+            <todo-item
+                v-for="item in groceryList"
+                v-bind:todo="item"
+                v-bind:key="item.id"
+            ></todo-item>
+        </ol>
+    </div> -->
+
+    <!-- Computed and Methods Properties -->
+    <!-- 
+        perbedaan computed dengan methods adalah
+        computed ketika aplikasi dijalankan maka method di dalam
+        computed di jalankan otomatis, sehingga jika ingin mengambil
+        langsung sebuah nilai dari proses computed makan langsung panggil saja,
+        tanpa perlu menjalankannya terlebih dahulu seperti halnya pada methods
+    -->
+    <!-- <div id="app6">
+        <p>{{ int1 }} + {{ int2 }} = {{ sum }}</p>
+        <p>{{ int3 }} + {{ int4 }} = {{ result2 }}</p>
+        <button v-on:click="prosesSum">Proses</button>
+        <br/><br/>
+        <input v>
+    </div> -->
+
+    <!-- Watch Properties -->
+    <!-- <div id="app7">
+        <input type="text" v-model="kilometers">
+        <input type="text" v-model="meters">
+    </div> -->
+
+    <!-- v-model di input text dan textarea-->
+    <!-- <div id="app8">
+        <input type="text" v-model="message">
+        {{ message }}
+        <br/><br/>
+        <textarea cols="30" rows="10" v-model="textarea">
+        </textarea>
+        <p style="white-space: pre-wrap;">{{ textarea }}</p>
+    </div> -->
+
+    <!-- v-model di radiobutton -->
+    <!-- <div id="app9">
+        <input type="radio" v-model="radiobutton" value="radio-1"> Radio-1
+        <br/>
+        <input type="radio" v-model="radiobutton" value="radio-2"> Radio-2
+        <br/>
+        pilihan radio kamu adalah : {{ radiobutton }}
+    </div> -->
+
+    <!-- v-model di checkbox -->
+    <!-- <div id="app10">
+        <label for="">Watching Movie</label>
+        <input type="checkbox" value="waching-movie" v-model="checkbox">
+        <br/>
+        <label for="">Travelling</label>
+        <input type="checkbox" value="travelling" v-model="checkbox">
+        <br/>
+        <label for="">Futsal</label>
+        <input type="checkbox" value="futsal" v-model="checkbox">
+        <br/>
+        Hobi saya adalah : {{ checkbox }}
+        <ul>
+            <li v-for="(item, index) in checkbox" :key="index">{{ item }}</li>
+        </ul>
+    </div> -->
+
+    <!-- v-model di select -->
+    <!-- <div id="app11">
+        Silahkan pilih bahasa pemgrograman favorit kamu:
+        <select v-model="select" multiple>
+            <option value="" disabled>pilih</option>
+            <option value="javascript">Javascript</option>
+            <option value="java">Java</option>
+            <option value="c#">C#</option>
+
+        </select><br/>
+        bahasa pemgrograman favorit kamu adalah :{{ select }} <br/>
+
+        <ul>
+            <li v-for="(item, select) in select" :key="index">{{ item }}</li>
+        </ul>
+    </div> -->
+
+    <!-- v-bind -->
+    <div id="app12">
+        <img v-bind:src="imageFile" width="500px" height="500x">
+        <a v-bind:href="hrefFacebook">Facebook</a>
+        <p v-bind:style="styleCustom">Tes text</p>
+    </div>
+
+</body>
+<script src="vue.js"></script>
+<script src="main.js"></script>
+</html>

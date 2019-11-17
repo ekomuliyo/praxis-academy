@@ -13,6 +13,6 @@ import io.reactivex.Flowable;
 @Requires(notEnv = Environment.TEST)
 public interface BookClient extends BooksFetcher{
 
-    @Override @Get("/api/books") Flowable<Book> fetchBook();
+    @Override @Get("/api/books") Flowable<Book> fetchBooks();
 
 }
