@@ -4,6 +4,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - App",
             "request": "launch",
+            "mainClass": "com.oop.customer.App",
+            "projectName": "OOP-Customer"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
             "mainClass": "MyTest.App"
         },
         {
