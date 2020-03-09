@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MainThread",
+            "request": "launch",
+            "mainClass": "MainThread"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AnotationExample",
             "request": "launch",
             "mainClass": "AnotationExample"
